@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/add32.xst" -ofn "/mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/add32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc add32.ucf -p xc3s200-tq144-4 add32.ngc add32.ngd  

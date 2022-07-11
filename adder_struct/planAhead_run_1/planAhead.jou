@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Jul 11 17:23:22 2022
+# Process ID: 75169
+# Log file: /mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/planAhead_run_1/planAhead.log
+# Journal file: /mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/pa.fromNetlist.tcl

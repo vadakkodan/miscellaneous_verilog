@@ -1,0 +1,5 @@
+set -tmpdir "/mnt/Documents/Projects/verilog/miscellaneous_verilog/fullv/xst/projnav.tmp"
+set -xsthdpdir "/mnt/Documents/Projects/verilog/miscellaneous_verilog/fullv/xst"
+elaborate
+-ifn fulladd.prj
+-ifmt mixed

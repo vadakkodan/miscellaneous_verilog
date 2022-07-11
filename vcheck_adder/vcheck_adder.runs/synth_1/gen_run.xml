@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a12tcpg238-3" LaunchTime="1655915270">
+  <File Type="VDS-TIMING-PB" Name="add1_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="add1_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="add1.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="add1_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="add1_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="add1_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="add1.vds"/>
+  <File Type="REPORTS-TCL" Name="add1_reports.tcl"/>
+  <File Type="PA-TCL" Name="add1.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/miscellaneous_verilog/add1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../add1.v"/>
+        <Attr Name="ImportTime" Val="1655909905"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/miscellaneous_verilog/mux_2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../mux_2.v"/>
+        <Attr Name="ImportTime" Val="1655829172"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/miscellaneous_verilog/tb_mux.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../tb_mux.v"/>
+        <Attr Name="ImportTime" Val="1655829181"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/miscellaneous_verilog/tb_add1.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../tb_add1.v"/>
+        <Attr Name="ImportTime" Val="1655913550"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="add1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

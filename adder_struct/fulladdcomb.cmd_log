@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/fulladdcomb.xst" -ofn "/mnt/Documents/Projects/verilog/miscellaneous_verilog/adder_struct/fulladdcomb.syr" 
